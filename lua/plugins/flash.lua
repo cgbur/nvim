@@ -3,8 +3,7 @@ return {
     dependencies = {
         "nvim-treesitter/nvim-treesitter"
     },
-    -- event = "VeryLazy",
-    lazy = true,
+    event = "VeryLazy", -- so f works out the box
     opts = {},
     keys = {
         {

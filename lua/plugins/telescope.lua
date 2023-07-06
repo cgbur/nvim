@@ -14,10 +14,7 @@ local plugin = {
         require("config.utils").load_mapping "telescope"
     end,
     opts = function()
-        local actions = require("telescope.actions")
         local trouble = require("trouble.providers.telescope")
-        local telescope = require("telescope")
-
         return {
             pickers = {
                 current_buffer_fuzzy_find = {

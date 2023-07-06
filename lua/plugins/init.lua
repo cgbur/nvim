@@ -12,7 +12,7 @@ return {
         end
     },
 
-    
+
 
 
     -- {
@@ -32,3 +32,4 @@ return {
 -- fix the auto inlay hints enabling
 -- git integration
 -- code action menu
+-- leader r n for relative numbers is delayed making rename slow
