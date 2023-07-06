@@ -33,3 +33,7 @@ return {
 -- git integration
 -- code action menu
 -- leader r n for relative numbers is delayed making rename slow
+
+-- NOTES --
+-- = is cool for indenting
+-- o jumps to otherside
