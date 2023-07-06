@@ -4,7 +4,7 @@ return {
         require("config.utils").load_mapping "nvimtree"
     end,
     version = "*",
-    lazy = true,
+    lazy = false,
     dependencies = {
         "nvim-tree/nvim-web-devicons",
     },

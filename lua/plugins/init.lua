@@ -12,6 +12,8 @@ return {
         end
     },
 
+    
+
 
     -- {
     --     "NvChad/nvim-colorizer.lua",
@@ -26,5 +28,7 @@ return {
 -- TODOS --
 -----------
 -- null-ls
--- toggle term
+-- toggle term / terminal integration
 -- fix the auto inlay hints enabling
+-- git integration
+-- code action menu
