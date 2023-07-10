@@ -5,9 +5,5 @@
 
 local map = vim.keymap.set
 
-map("i", "<C-h>", "<Left>", { desc = "Move left" })
-map("i", "<C-l>", "<Right>", { desc = "Move right" })
-map("i", "<C-j>", "<Down>", { desc = "Move down" })
-map("i", "<C-k>", "<Up>", { desc = "Move up" })
-map("i", "<C-b>", "<ESC>^i", { desc = "Beginning of line" })
+-- move in insert mode
 map("i", "<C-e>", "<End>", { desc = "End of line" })
