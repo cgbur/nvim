@@ -4,4 +4,16 @@ return {
     lazy = true,
     -- enable when entering insert mode
     event = "InsertEnter",
+    config = function()
+        vim.g.copilot_filetypes = {
+            markdown = true,
+        }
+    end,
+    keys = {
+        {
+            "<leader>cp",
+            "<cmd>Copilot<cr>",
+            desc = "Copilot suggestions",
+        }
+    }
 }
