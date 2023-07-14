@@ -3,7 +3,6 @@ return {
   {
     "echasnovski/mini.indentscope",
     opts = {
-
       draw = {
         -- Animation rule for scope's first drawing. A function which, given
         -- next and total step numbers, returns wait time (in ms). See
