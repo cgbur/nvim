@@ -5,11 +5,17 @@ return {
     keys = {
       {
         "<tab>",
-        vim.NIL,         --so copilot works
+        vim.NIL, --so copilot works
         expr = true,
         silent = true,
         mode = "i",
       },
     },
   },
+
+  -- disable the text completions, mostly just annoying
+  {
+    "hrsh7th/cmp-buffer",
+    enabled = false,
+  }
 }

@@ -9,6 +9,21 @@ return {
         require("telescope").load_extension("fzf")
       end,
     },
+    opts = {
+      pickers = {
+        current_buffer_fuzzy_find = {
+          -- theme = "cursor",
+          sorting_strategy = "ascending",
+          layout_config = {
+            prompt_position = "top",
+          }
+
+        }
+      },
+    },
+    keys = {
+      { "<leader>/", "<cmd>Telescope current_buffer_fuzzy_find<cr>", desc = "Buffer" },
+    }
   },
 
   {

@@ -6,6 +6,9 @@ return {
         zls = {
           mason = false,
         },
+        rust_analyzer = {
+          mason = false,
+        },
       },
     },
   },
