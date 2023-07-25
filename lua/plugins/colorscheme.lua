@@ -27,11 +27,11 @@ return {
     --   },
     -- },
   },
-
+  { 'projekt0n/github-nvim-theme' },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "github_dark_high_contrast",
     },
   }
 }
