@@ -83,4 +83,25 @@ return {
       },
     },
   },
+  -- add the context of the current function
+  {
+    "nvim-treesitter/nvim-treesitter-context",
+    cmd = { "TSContextEnable", "TSContextDisable", "TSContextToggle" },
+    event = { "BufReadPost", "BufNewFile" },
+    opts = {
+      line_numbers = true,
+    },
+    keys = {
+      {
+        "[c",
+        function()
+          require("treesitter-context").go_to_context()
+        end,
+        desc = "Previous context"
+      },
+    },
+    config = function(_, opts)
+      require("treesitter-context").setup(opts)
+    end,
+  }
 }
