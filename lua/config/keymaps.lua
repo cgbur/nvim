@@ -11,3 +11,6 @@ map("i", "<C-e>", "<End>", { desc = "End of line" })
 map("t", "<esc>", "<c-\\><c-n>", { desc = "Enter Normal Mode", silent = true })
 -- delete the esc esc mapping
 del("t", "<esc><esc>")
+
+-- Copy the whole buffer
+map("n", "<leader>yy", ":%y+<cr>", { desc = "Copy whole buffer" })
