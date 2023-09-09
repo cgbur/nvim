@@ -15,4 +15,11 @@ return {
       },
     },
   },
+  {
+    'levouh/tint.nvim',
+    event = { "BufReadPost", "BufNewFile" },
+    config = function(_, opts)
+      require("tint").setup(opts)
+    end,
+  }
 }
